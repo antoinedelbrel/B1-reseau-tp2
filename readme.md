@@ -43,10 +43,10 @@ Fait
 Les deux IP ont été mis dans le même réseau 14.10.10.10/22 et 14.10.10.11/22
 Grâce a la commande `ipconfig` on a pu vérifié que l'adresse IP ethernet à été changé.
 Les changements ont affiché :
-Réponse de 14.10.10.11 : octets=32 temps=6 ms TTL=128
-Réponse de 14.10.10.11 : octets=32 temps=6 ms TTL=128
-Réponse de 14.10.10.11 : octets=32 temps=6 ms TTL=128
-Réponse de 14.10.10.11 : octets=32 temps=6 ms TTL=128
+* Réponse de 14.10.10.11 : octets=32 temps=6 ms TTL=128
+* Réponse de 14.10.10.11 : octets=32 temps=6 ms TTL=128
+* Réponse de 14.10.10.11 : octets=32 temps=6 ms TTL=128
+* Réponse de 14.10.10.11 : octets=32 temps=6 ms TTL=128
 Paquets : envoyés = 4, reçus = 4, perdus = 0 (perte 0%)
 Grâce a la commande `ping 14.10.10.11`
 
