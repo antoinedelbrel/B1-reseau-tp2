@@ -64,3 +64,4 @@ Les deux ordinateur arrivent bien à communiquer.
 * Pour demander une nouvelle adresse IP en ligne de commande il faut faire un `ipconfig /flushdns` puis `ipconfig /release` et enfin `ipconfig /renew`. Vous obtenez une nouvelle adresse IP.
 
 ## 2.DNS
+
