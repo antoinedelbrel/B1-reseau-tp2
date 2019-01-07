@@ -65,3 +65,11 @@ Les deux ordinateur arrivent bien à communiquer.
 
 ## 2.DNS
 
+* l'adresse IP du serveur DNS que connait mon ordinateur est `10.33.10.20``10.33.10.7`, on l'obtient en faisant un ipconfig /all dans l'invite de commande.
+* Pour google.com on obtient deux adresses de :
+- `2a00:1450:4007:80c::200e`
+- `172.217.19.238`
+
+* Pour ynov.com on obtient une adresse qui est `217.70.184.38`.
+
+* Pour les deux `reverse lookup` je n'obtenais rien.
