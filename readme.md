@@ -46,8 +46,21 @@ Les changements ont affiché :
 * Réponse de 14.10.10.11 : octets=32 temps=6 ms TTL=128
 * Réponse de 14.10.10.11 : octets=32 temps=6 ms TTL=128
 * Réponse de 14.10.10.11 : octets=32 temps=6 ms TTL=128
-* Réponse de 14.10.10.11 : octets=32 temps=6 ms TTL=128
+* Réponse de 14.10.10.11 : octets=32 temps=6 ms TTL=128  
 Paquets : envoyés = 4, reçus = 4, perdus = 0 (perte 0%)
 Grâce a la commande `ping 14.10.10.11`
 
-On a ensuite changé l'adresse IP pour un masque de sous réseau /29 avec une IP de 14.10.10.3 et 14.10.10.2.
+On a ensuite changé l'adresse IP pour un masque de sous réseau /29 avec une IP de 192.168.137.1 et 192.168.137.9  
+Les deux ordinateur arrivent bien à communiquer.
+
+
+# III.Manipulation d'autres outils/protocoles côté client
+
+## 1.DHCP
+
+* L'adresse IP du serveur DHCP du reseau WiFi est `10.33.3.254`.
+* La date d'expiration du bail DHCP est le lundi 7 janvier 2019 à 14:40:28, on la trouve dans l'invite de commande après avoir marqué `ipconfig /all`. Elle est dans la carte réseau sans fil wifi.
+* Un client DHCP est un ordinateur qui demande une adresse IP à un serveur DHCP.
+* Pour demander une nouvelle adresse IP en ligne de commande il faut faire un `ipconfig /flushdns` puis `ipconfig /release` et enfin `ipconfig /renew`. Vous obtenez une nouvelle adresse IP.
+
+## 2.DNS
